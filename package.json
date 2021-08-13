@@ -1,0 +1,23 @@
+{
+  "name": "dj-profile",
+  "version": "0.8.0",
+  "private": true,
+  "description": "A profile for artists/DJ's to promote their music online.",
+  "author": "Hassan Corrigan <github@hassancorrigan.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vue": "^3.1.5",
+    "vuex": "^4.0.2",
+    "wavesurfer.js": "^5.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.13",
+    "@vue/compiler-sfc": "^3.1.5"
+  }
+}
